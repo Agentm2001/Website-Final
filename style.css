@@ -45,6 +45,7 @@ p {
 
 .fav p {
   max-width: 60%; 
+  text-align: justify;
 }
 
 .gridp {
