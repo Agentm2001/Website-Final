@@ -2,12 +2,12 @@ body {
   background-color: #6ba6a4;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
-  padding: 0.5rem;
+  padding: 0;
 }
 
 ul {
   list-style-type: none;
-  margin: 10;
+  margin: 0;
   padding: 20;
   background-color: #e5dddd;
   text-align: center;
@@ -38,6 +38,10 @@ h1 {
   font-family: ;
 }
 
+h2 {
+  margin: 5px;
+}
+
 p {
   font-size: large;
   max-width: 80%;
@@ -46,6 +50,7 @@ p {
 .fav p {
   max-width: 60%; 
   text-align: justify;
+  margin: 5px;
 }
 
 .gridp {
@@ -74,7 +79,8 @@ p {
 
   .fav {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 30px;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 20px;
   }
