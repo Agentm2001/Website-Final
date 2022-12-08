@@ -2,7 +2,8 @@ body {
   background-color: #6ba6a4;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
-  padding: 0;
+  background-position-x: 30%;
+  padding: 0px;
 }
 
 ul {
@@ -35,7 +36,7 @@ a:hover {
 }
 
 h1 {
-  font-family: ;
+  padding: 10px;
 }
 
 h2 {
@@ -45,6 +46,7 @@ h2 {
 p {
   font-size: large;
   max-width: 80%;
+  padding: 10px;
 }
 
 .fav p {
@@ -59,6 +61,7 @@ p {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     color: #444;
+    padding: 20px;
   }
 
   .gridc {
@@ -67,6 +70,7 @@ p {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
     color: #444;
+    padding: 20px;
   }
 
   #sun {
