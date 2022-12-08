@@ -2,7 +2,7 @@ body {
   background-color: #6ba6a4;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
-  background-position-x: 30%;
+  background-position-x: 35%;
   padding: 0px;
 }
 
@@ -40,12 +40,14 @@ h1 {
 }
 
 h2 {
-  margin: 5px;
+  color: rgb(24, 23, 23);
+  max-width: 60%;
+  font-size: larger;
 }
 
 p {
   font-size: large;
-  max-width: 80%;
+  max-width: 70%;
   padding: 10px;
 }
 
